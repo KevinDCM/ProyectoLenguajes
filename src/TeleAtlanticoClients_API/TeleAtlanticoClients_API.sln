@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeleAtlanticoClients_API", "TeleAtlanticoClients_API\TeleAtlanticoClients_API.csproj", "{CE0E89BD-E034-4EC4-A685-4FB6281B2C4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE0E89BD-E034-4EC4-A685-4FB6281B2C4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE0E89BD-E034-4EC4-A685-4FB6281B2C4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE0E89BD-E034-4EC4-A685-4FB6281B2C4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE0E89BD-E034-4EC4-A685-4FB6281B2C4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8BAEC30-B5F1-4561-9095-53928A1228C1}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>TeleAtlantico Clients</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="css/templatemo-style.css">
+
+</head>
+
+<div class="container">
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+</div>
+
+<body>
+    <h1>_</h1>
+
+    <!-- MENU -->
+    <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
+        <div class="container">
+
+            <!-- MENU LINKS -->
+            <!-- <div class="collapse navbar-collapse"> -->
+
+            <ul class="nav navbar-nav navbar-nav-first">
+                <li><a href="#login" class="smoothScroll">Log-In</a></li>
+                <li><a href="#signin" class="smoothScroll">Sign-In</a></li>
+
+            </ul>
+
+        </div>
+    </section>
+
+    <!-- Illustrations -->
+    <section id="illustrate">
+
+        <img id="img1" src="assets/infographic.png" class="img-responsive" alt="infographic">
+
+    </section>
+
+    <!-- Log-In -->
+    <section id="login">
+
+        <form action="">
+
+            <h1>Tele-Atlantico Clients Log-In</h1>
+
+            <div >
+                <div>
+                    <label for="uname"><strong>Email</strong></label>
+                    <input type="email" id="emailsign" placeholder="Enter email" name="uname" required autocomplete="off">
+                    <label for="psw"><strong>Password</strong></label>
+                    <input type="password" id="passsign" placeholder="Enter Password" name="psw" required autocomplete="off">
+
+                    <button type="button" onclick="return login()">Login</button>
+
+                </div>
+
+
+            </div>
+
+        </form>
+
+    </section>
+
+    <!-- Illustrations -->
+    <section id="illustrate">
+
+        <img id="img2" src="assets/telematics-market.jpeg" class="img-responsive" alt="telematics">
+
+    </section>
+
+    <section id="suggst">
+
+        <h4>Don't have an account? Sign up now!</h4>
+    </section>
+
+    <section id="signin">
+        <div class="main-block">
+
+            <h1>Registration</h1>
+            <div >
+
+                <label id="icon" for="name"><i></i></label>
+                <input type="text" name="name" id="namelog" placeholder="Name" required autocomplete="off" />
+
+                <label id="icon" for="name"><i></i></label>
+                <input type="text" name="name" id="firstsurnamelog" placeholder="First surname" required autocomplete="off" />
+
+                <label id="icon" for="name"><i></i></label>
+                <input type="text" name="name" id="secondsurnamelog" placeholder="Second surname" required autocomplete="off" />
+
+                <label id="icon" for="name"><i></i></label>
+                <input type="text" name="name" id="emaillog" placeholder="Email" required autocomplete="off" />
+
+                <label id="icon" for="name"><i></i></label>
+                <input type="password" name="name" id="passwordlog" placeholder="Password" required autocomplete="off" />
+
+                <label id="icon" for="name"><i></i></label>
+                <input type="text" name="name" id="phonelog" placeholder="Phone number" required autocomplete="off" />
+
+                <label id="icon" for="name"><i></i></label>
+                <input type="text" name="name" id="secondcontactlog" placeholder="Second contact" required autocomplete="off" />
+
+                <label id="icon" for="name"><i></i></label>
+                <input type="text" name="name" id="adresslog" placeholder="Full Address" required autocomplete="off" />
+
+                <div class="btn-block">
+                    <button class="submit-btn form-control" onclick="return Add()">Submit</button>
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/site.js"></script>
+
+</body>
+</html>

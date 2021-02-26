@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>LabSpring</title>
+</head>
+<body>
+<form action="/add" method="POST">
+    <p>Insert student</p>
+
+    <div>
+        <label for="name">Name:</label>
+        <input name="name" id="name" value="">
+    </div>
+    <div>
+        <label for="email">Email:</label>
+        <input name="email" id="email" value="">
+    </div>
+    <div>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" value="">
+    </div>
+    <div>
+        <button>Save</button>
+    </div>
+</form>
+
+<hr/>
+
+<form action="/students" method="GET">
+    <button>List students</button>
+</form>
+</body>
+</html>
